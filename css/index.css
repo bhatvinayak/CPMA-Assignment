@@ -1,0 +1,54 @@
+input{
+    width: 70vw;
+    height: 10vw;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+::placeholder{
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+h1{
+    text-shadow: 1px 1px 13px black;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+}
+button{
+    width: 30vw;
+    height: 10vw;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(36, 146, 150);
+    color: white;
+    font-weight: bolder; 
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+button:hover{
+    width: 40vw;
+    font-size: 20px;
+}
+@media screen and (max-width:420px){
+    input{
+        height: 15vw;
+    }
+    button{
+        height: 15vw;
+        margin: 20px;
+    }
+}
+img{
+    height: 50vw;
+    width: 80vw;
+}

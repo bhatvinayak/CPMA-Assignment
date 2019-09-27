@@ -1,0 +1,50 @@
+
+input{
+    width: 70vw;
+    height: 10vw;;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border:2px solid black;
+}
+::placeholder{
+    padding: 10px;
+}
+p{
+    font-size: 4vw;
+    font-family: cursive;
+    font-weight: bold;
+}
+h1{
+    text-shadow: 1px 1px 13px black;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+}
+button{
+    width: 25vw;
+    height: 10vw;;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(116, 240, 14);
+    font-weight: bolder; 
+    outline: none;
+}
+.rad{
+    width: 3vw;
+    vertical-align: middle;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 4vw;
+}
+@media screen and (max-width:420px){
+    input{
+        height: 10vw;
+    }
+    button{
+        height: 10vw;
+        margin: 20px;
+    }
+}
