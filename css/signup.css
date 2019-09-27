@@ -41,10 +41,10 @@ button{
 }
 @media screen and (max-width:420px){
     input{
-        height: 10vw;
+        height: 7vw;
     }
     button{
-        height: 10vw;
+        height: 7vw;
         margin: 20px;
     }
 }
