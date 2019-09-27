@@ -41,7 +41,7 @@ button{
 }
 @media screen and (max-width:420px){
     input{
-        height: 7vw;
+        height: 13vw;
     }
     button{
         height: 7vw;
