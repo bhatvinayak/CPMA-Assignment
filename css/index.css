@@ -1,6 +1,6 @@
 input{
     width: 70vw;
-    height: 10vw;
+    height: 7vw;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -23,7 +23,7 @@ body{
 }
 button{
     width: 30vw;
-    height: 10vw;
+    height: 7vw;
     border: none;
     border-radius: 10px;
     background-color:rgb(36, 146, 150);
